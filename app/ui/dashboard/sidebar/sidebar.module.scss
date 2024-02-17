@@ -1,0 +1,41 @@
+.container {
+    position: sticky;
+    top: 40px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    &__image {
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    &__detail {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__name {
+        font-weight: 500;
+    }
+
+    &__role {
+        font-size: 13px;
+        color: var(--textSoft);
+    }
+}
+
+.list {
+    list-style: none;
+    margin-top: 30px;
+}
+
+.cat {
+    color: var(--textSoft);
+    font-weight: 600;
+    font-size: 13px;
+    margin: 10px 0;
+}
